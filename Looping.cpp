@@ -145,3 +145,11 @@ void pilihanjurusan() {
             statuskuota = "error: kode Tidak valid";        
     }
 }
+
+// prosedu
+void output() {
+    cout << "\n=== HASIL SELEKSI ===" << endl;
+    cout << "Jurusan Pilihan : " << namaJurusan << endl;
+    cout << "status  Kuota   : " << statusKuota << endl;
+    cout << "----------------------------------" << endl;
+}
