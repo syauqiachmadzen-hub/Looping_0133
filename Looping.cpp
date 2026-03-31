@@ -153,3 +153,11 @@ void output() {
     cout << "status  Kuota   : " << statusKuota << endl;
     cout << "----------------------------------" << endl;
 }
+
+int main() {
+    input();
+    piilihanJurusan();
+    output();
+
+    return 0;
+}
