@@ -33,5 +33,12 @@ int main(){
 
     //perulangan dengan DO....WHILE 
     cout <<"PERULANGAN DO...WHILE"<<endl;
+    x = 1 + rand()%10;
+    do{
+        cout<<"bilangan acak = "<<x <<endl;
+        x = rand()%10;
+    }while(x<=5);
 
+    cout<<"bilangan acak do-while yang terakhir ="<<x <,endl;
+    cout<<endl;
 }
