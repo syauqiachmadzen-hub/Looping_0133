@@ -122,5 +122,26 @@ void input() {
     cout << "3. Sistem Informasi" <<endl;
     cout << ":-------------------------------" << endl;
     cout << "Masukkan kode jurusan (1-3): ";
-    
+    cin >> kodejurusan;
+}
+
+// prosedur uuntuk pengecekan kondisi
+void pilihanjurusan() {
+    switch (kodejurusan) {
+        case 1:
+            namajurusan = "Teknoloogi Informasi";
+            statuskuota = "Tersedia (15 Kursi)";
+            break;
+        case 2:
+            namajurusan = "Teknik Elektro";
+            statuskuota = "kuota penuh";
+            break;
+        case 3:
+            namajurusan = "Tidak Diketahui";
+            statuskuota = "Tersedia (5 kursi)";
+            break;
+        default:
+            namajurusan = "tidak Diketahiui";
+            statuskuota = "error: kode Tidak valid";        
+    }
 }
