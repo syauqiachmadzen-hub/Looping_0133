@@ -42,3 +42,23 @@ int main(){
     cout<<"bilangan acak do-while yang terakhir ="<<x <,endl;
     cout<<endl;
 }
+logika not
+#include <iostream>
+using namespace std;
+
+int main(){
+    float nilB,nilM,rerata;
+    string status;
+
+    cout<<"masukkan nilai matematika = ";
+    cin>>nilM;
+    cout<<"masukkan nilai bahasa inggris ";
+    cin>>nilB;
+
+    rerata = (nilB+nilM)/2;
+    if (!(rerata < 60) )
+        status = "lulus";
+    else
+        status = "tidak lulus";
+             
+}
