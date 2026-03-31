@@ -84,5 +84,17 @@ int main(){
         status = "tidak lulus";
     
         cout<<"status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
-        
+
+}
+logika and
+#include <iostream>
+using namespace std;
+int main(){
+    float nilB,nilM,rerata;
+    string status;
+
+    cout<<"masukkan nilai Matematika = ";
+    cin>>nilM;
+    cout<<"Masukkan nilai Bahasa Inggris = ";
+    cin>>nilB;
 }
