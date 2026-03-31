@@ -63,3 +63,17 @@ int main(){
     
     cout<<"status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
 }
+ logika OR
+#include <iostream>
+using namespace std;
+
+int main(){
+    float nilB,nilM,rersata;
+    string status;
+
+    cout<<"masukkan nilai Matematika = ";
+    cin>>nilM;
+    cout<<"masukkan nilai Bahasa Inggris = ";
+    cin>>nilB;
+    
+}
