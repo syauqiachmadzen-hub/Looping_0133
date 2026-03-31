@@ -106,3 +106,11 @@ int main(){
         status = "tidak lulus";
     cout<<"status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;    
 }
+
+#includ <iostream>
+using namespace std;
+
+//Deklarasi Variable global
+int kode jurusan;
+string namaJurusan;
+string statuskuota;
